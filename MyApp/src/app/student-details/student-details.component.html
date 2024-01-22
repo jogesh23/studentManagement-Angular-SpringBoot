@@ -1,0 +1,21 @@
+<table class="table table-hover">
+    <thead class="bg-light">
+      <tr>
+        <th>ID</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Password</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngIf="student">
+        <td>{{ student.id }}</td>
+        <td>{{ student.firstName }}</td>
+        <td>{{ student.lastName }}</td>
+        <td>{{ student.password }}</td>
+        <!-- Add any actions you want here -->
+      </tr>
+    </tbody>
+  </table>
+  
